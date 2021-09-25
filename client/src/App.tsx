@@ -4,7 +4,6 @@ import "./App.css";
 import Header from './Components/Header';
 import UserCard from './Components/UserCard';
 import api from './Services/api';
-import { AxiosResponse } from "axios";
 import { Userlist } from './Components/styles';
 
 function App() {

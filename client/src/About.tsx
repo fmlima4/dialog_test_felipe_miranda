@@ -6,15 +6,6 @@ import Header from './Components/Header';
 import { Userlist, AboutStyle } from './Components/styles';
 import UserCard from './Components/UserCard';
 
-interface User {
-  id: string,
-  picture: string,
-  age: string,
-  name: string,
-  email: string,
-  friends: []
-}
-
 function About() {
   const [dataset, setDataset] = useState<any[]>([])
   const [name, setName] = useState<string>("")
@@ -37,7 +28,7 @@ function About() {
 
   useEffect(() => {
     async function loadUser() {
-      let currentUser = dataset.find(obj => obj._id == userID);
+      let currentUser = dataset.find(obj => obj._id === userID);
       console.log(currentUser)
 
       if(currentUser === undefined) {return}
@@ -50,7 +41,7 @@ function About() {
       
     }
     loadUser();    
-  }, [dataset]);
+  }, [dataset,userID]);
 
 
   const client = new ApolloClient({
