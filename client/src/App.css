@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(218, 214, 214);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 1%;
+  font-family: 'poppins', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.container{
+    margin-left: 30px;
+    align-items: center;
+}
+
+button{
+    margin-left: 10px;
+}
+
+.MuiTextField-root	{
+  margin: 10px;
+}
+
