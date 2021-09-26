@@ -20,7 +20,7 @@ Devido ao tempo reduzido nao implentei tudo o que foi solicitado, seguem abaixo 
     - [o] A chamada query list, por falta tempo usei uma forma mais rapida de desenvolver e servir o dataset fornecido para o frontend
     - [o] A pesquisa nao foi implementada
     - [x] Uso do Express OK 
-    - [o] Middleware para logs 
+    - [x] Middleware para logs de requests
     - [x] Uso do typescript OK 
     - [x] executar projeto na porta 4000
 
